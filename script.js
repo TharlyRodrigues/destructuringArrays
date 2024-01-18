@@ -12,6 +12,9 @@ const restaurant = {
   starterMenu: ['Focaccia', 'Bruschetta', 'Garlic Bread', 'Caprese Salad'],
   mainMenu: ['Pizza', 'Pasta', 'Risotto'],
 
+  order: function (starterIndex, mainIndex) {
+    return [this.starterMenu[starterIndex], this.mainMenu[mainIndex]];
+  },
   // openingHours: {
   //   thu: {
   //     open: 12,
@@ -35,3 +38,21 @@ const c = [2];
 
 const [x, y, z] = arr; // tarefa de desestruturação
 console.log(x, y, z);
+console.log(arr);
+
+const [first, , second] = restaurant.categories;
+console.log(first, second);
+
+let [main, , secondary] = restaurant.categories;
+console.log(main, secondary);
+
+// const temp = main;
+// main = secondary;
+// secondary = temp;
+// console.log(main, secondary);
+
+[main, secondary] = [secondary, main];
+console.log(main, secondary);
+
+const [starter, mainCouser] = restaurant.order(2, 0);
+console.log(starter, mainCouser);

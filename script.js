@@ -53,6 +53,17 @@ const restaurant = {
   },
 };
 
+/*
+restaurant.nunGuests = 0;
+const guests = restaurant.nunGuests || 10;
+console.log(guests);
+
+// nullish: null and undefined (NOT 0 or '')
+const guestsCorrect = restaurant.nunGuests ?? 10;
+console.log(guestsCorrect);
+
+///////////////////////////////////////////
+// short circuiting (&& and ||)
 //use any data type, return any data type, short-circuiting
 
 console.log('---------or-------');

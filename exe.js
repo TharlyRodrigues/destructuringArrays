@@ -14,7 +14,7 @@ Suppose we get data from a web service about a certain game (below). In this cha
 TEST DATA FOR 6: Use players 'Davies', 'Muller', 'Lewandowski' and 'Kimmich'. Then, call the function again with players from game.scored
 
 GOOD LUCK 😀
-*/
+
 
 const game = {
   team1: 'Bayern Munich',
@@ -89,3 +89,4 @@ printGoals(...game.scored);
 // 7.
 team1 < team2 && console.log('team 1 is more likely to win');
 team1 > team2 && console.log('team 1 is more likely to win');
+*/

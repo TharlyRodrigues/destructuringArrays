@@ -113,7 +113,7 @@ BONUS: Create an object called 'scorers' which contains the names of the players
       }
 
 GOOD LUCK 😀
-*/
+
 
 const game = {
   team1: 'Bayern Munich',
@@ -175,3 +175,4 @@ for (const [team, odd] of Object.entries(game.odds)) {
   const teamStr = team === 'x' ? 'draw' : `victory ${game[team]}`;
   console.log(`Odd of ${teamStr} ${odd}`);
 }
+*/

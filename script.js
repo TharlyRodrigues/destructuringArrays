@@ -52,6 +52,7 @@ const restaurant = {
   },
 };
 
+/*
 // property names
 
 const properties = Object.keys(hours);
@@ -77,7 +78,7 @@ for (const [key, { open, close }] of entries) {
   console.log(`on ${key} we open at ${open} and close at  ${close}`);
 }
 
-/*
+
 ////////////////////////////////////////////////
 // optional chaining
 

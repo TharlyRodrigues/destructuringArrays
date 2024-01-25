@@ -52,6 +52,44 @@ const restaurant = {
   },
 };
 
+/*
+const question = new Map([
+  ['question', 'what is the best programming language in the world?'],
+  [1, 'c'],
+  [2, 'java'],
+  [3, 'javascript'],
+  ['correct', 3],
+  [true, 'correct 🏆'],
+  [false, 'try again!'],
+]);
+
+console.log(question);
+
+console.log(Object.entries(hours));
+
+// convert objetos em to map
+const hoursMap = new Map(Object.entries(hours));
+console.log(hoursMap);
+
+console.log(question.entries('question'));
+
+for (const [key, value] of question) {
+  if (typeof key === 'number') console.log(`Answer ${key}: ${value}`);
+}
+
+// const answer = Number(prompt('your answer'));
+const answer = 3;
+console.log(answer);
+
+console.log(question.get(question.get('correct') === answer));
+
+//convert map to array
+console.log([...question]);
+console.log(question.entries);
+console.log([...question.keys()]);
+console.log([...question.values()]);
+
+/*
 const rest = new Map();
 rest.set('name', 'Classico Italiano');
 rest.set(1, 'Firenze, Italy');
@@ -81,7 +119,7 @@ console.log(rest);
 console.log(rest.size);
 console.log(rest.get(arr));
 
-/*
+
 const ordersSet = new Set([
   'pasta',
   'pizza',

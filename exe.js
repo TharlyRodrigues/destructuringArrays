@@ -190,7 +190,7 @@ Let's continue with our football betting app! This time, we have a map with a lo
       [FIRST HALF] 17: ⚽️ GOAL
 
 GOOD LUCK 😀
-*/
+
 
 const gameEvents = new Map([
   [17, '⚽️ GOAL'],
@@ -230,3 +230,4 @@ for (const [min, event] of gameEvents) {
   const half = min <= 45 ? 'first' : 'second';
   console.log(`[${half} HALF] ${min}: ${Event}`);
 }
+*/

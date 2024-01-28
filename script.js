@@ -53,6 +53,35 @@ const restaurant = {
 };
 
 /*
+const airline = 'TAP Air Portugal';
+const plane = 'A320';
+console.log(plane[0]);
+console.log(plane[1]);
+console.log(plane[2]);
+console.log(airline.length);
+console.log('B737'.length);
+
+console.log(airline.indexOf('r'));
+console.log(airline.lastIndexOf('r'));
+console.log(airline.slice(4));
+console.log(airline.slice(4, 7));
+
+console.log(airline.slice(0, airline.indexOf(' ')));
+console.log(airline.slice(airline.lastIndexOf(' ') + 1));
+
+console.log(airline.slice(-2));
+console.log(airline.slice(1, -1));
+
+const checkWiddSeat = function (seat) {
+  const s = seat.slice(-1);
+  if (s === 'B' || s === 'E') console.log('you got the middle seat 🥲');
+  else console.log('you got lucky 🎉');
+};
+
+checkWiddSeat('11B');
+checkWiddSeat('23C');
+checkWiddSeat('3E');
+
 const question = new Map([
   ['question', 'what is the best programming language in the world?'],
   [1, 'c'],

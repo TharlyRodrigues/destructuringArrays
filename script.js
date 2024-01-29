@@ -51,13 +51,62 @@ const restaurant = {
     console.log(otherIngredient);
   },
 };
+/*
 
 const airline = 'TAP Air Portugal';
 
 console.log(airline.toLowerCase());
 console.log(airline.toUpperCase());
 
-/*
+const passenger = 'jOnAS';
+const passengerLower = passenger.toLowerCase();
+const passengerCorrect =
+  passengerLower[0].toUpperCase() + passengerLower.slice(1);
+console.log(passengerCorrect);
+
+// comparing Emails
+const email = 'hello@tharly.io';
+const loginEmail = '  hello@tharly.Io \n';
+
+// const lowerEmail = loginEmail.toLowerCase();
+// const trimmedEmail = lowerEmail.trim();
+// console.log(trimmedEmail);
+
+const normalizedEmail = loginEmail.toLowerCase().trim();
+console.log(normalizedEmail);
+
+console.log(email === normalizedEmail);
+
+const priceGB = '288,97£';
+const priceUS = priceGB.replace('£', '$').replace(',', '.');
+console.log(priceUS);
+
+const announcement = 'All passengers come to barding door 23. Boarding door 23';
+console.log(announcement.replaceAll('door', 'gate'));
+
+// Booleans
+const place = 'Airbus A320neo';
+console.log(place.includes('A320'));
+console.log(place.includes('Boeing'));
+console.log(place.startsWith('Air'));
+
+if (place.startsWith('Airbus') && place.endsWith('neo')) {
+  console.log('part of the New ARirbus family');
+}
+
+const checkBaggage = function (items) {
+  const baggage = items.toLowerCase();
+  if (baggage.includes('knife') || baggage.includes('gun')) {
+    console.log('You are NOT allowed on board');
+  } else {
+    console.log('Welcome aboard!'); 
+  }
+};
+
+checkBaggage('I have a laptop, some Food and a pocket Knife');
+checkBaggage('Socks and camera');
+checkBaggage('Got some snacks and a gun for protection');
+
 const airline = 'TAP Air Portugal';
 const plane = 'A320';
 console.log(plane[0]);

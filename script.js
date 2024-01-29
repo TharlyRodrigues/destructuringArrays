@@ -52,6 +52,11 @@ const restaurant = {
   },
 };
 
+const airline = 'TAP Air Portugal';
+
+console.log(airline.toLowerCase());
+console.log(airline.toUpperCase());
+
 /*
 const airline = 'TAP Air Portugal';
 const plane = 'A320';

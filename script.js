@@ -74,6 +74,31 @@ const capitalizeName = function (name) {
 capitalizeName('jessica ann smith davis');
 capitalizeName('jonas schmedtmann');
 
+// padding
+const message = 'Go to gate 23';
+console.log(message.padStart(25, '+'));
+console.log('Tharly'.padStart(25, '+').padEnd(30, '+'));
+
+const markCreditCard = function (number) {
+  const str = number + '';
+  const last = str.slice(-4);
+  return last.padStart(str.length, '*');
+};
+console.log(markCreditCard(6554488487));
+console.log(markCreditCard('6554488487'));
+console.log(markCreditCard(655448848745877456555));
+
+// repeat
+const message2 = 'Bad Waether.... all Departues Delayed';
+console.log(message2.repeat(5));
+
+const planesInline = function (n) {
+  console.log(`There are ${n} planes in line ${'🛬'.repeat(n)}`);
+};
+
+planesInline(5);
+planesInline(3);
+planesInline(12);
 /*
 
 const airline = 'TAP Air Portugal';

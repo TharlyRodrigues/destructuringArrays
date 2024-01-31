@@ -52,6 +52,7 @@ const restaurant = {
   },
 };
 
+/*
 // Splint and join
 console.log('a+very+nice+string'.split('+'));
 console.log('jonas Schmedtman'.split(' '));
@@ -99,7 +100,7 @@ const planesInline = function (n) {
 planesInline(5);
 planesInline(3);
 planesInline(12);
-/*
+
 
 const airline = 'TAP Air Portugal';
 

@@ -261,7 +261,7 @@ HINT 4: This challenge is difficult on purpose, so start watching the solution i
 Afterwards, test with your own test data!
 
 GOOD LUCK 😀
-*/
+
 document.body.append(document.createElement('textarea'));
 document.body.append(document.createElement('button'));
 
@@ -280,3 +280,4 @@ document.querySelector('button').addEventListener('click', function () {
     console.log(`${output.padEnd(20)}${'🆗'.repeat(i + 1)}`);
   }
 });
+*/
